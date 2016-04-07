@@ -1,2 +1,114 @@
 /* Importa o arquivo CSS que importa a fonte Ravie */
 @import "fonts/ravie.css";
+
+h1{
+	font-family: "ravie";
+	color: #e90c0c;
+	font-size: 36px;
+	padding-left: 20px;
+}
+
+header h2{
+	font-family: "sans-serif"; /*Trebuchet MS*/
+	font-size: 24px;
+	color: #333;
+	padding-left: 180px;
+}
+
+#acai{
+	color: #d027aa;
+}
+
+.preco{
+	float: right;
+	padding-right: 10px;
+}
+
+#recipiente{
+	background-image: linear-gradient(#f6f1b2, #4599b2);
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d3d3d3;
+	width: 798px; /*154+646-2*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -8px;
+	margin-bottom: -8px;
+}
+
+#cardapio{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #aac0ae;
+	background: rgba(255,255,255,0.2);
+	width: 624px;
+	font-family: "sans-serif";
+	font-size: 14px;
+	color: #333;
+	line-height: 2em;
+	margin-left: 153px; /*154-1px da borda*/
+	padding-bottom: 40px;
+	padding-left: 20px; /*agora o cardápio fica com 646px*/
+}
+
+h3{
+	font-family: "sans-serif"; /*Verdana*/
+	font-size: 18px;
+	color:#333;
+}
+
+#lateral h2{
+	position: absolute;
+	top:170px;
+	left:-40px;
+	font-family: "sans-serif"; /*Verdana*/
+	font-size: 48px;
+	color:#333;
+	transform: rotate(-90deg);
+}
+
+#conteudo{
+	position: relative;
+}
+
+#cabecalho{
+	padding-left: 154px;
+}
+
+#siri{
+	position: absolute;
+	top:-144px; /*151-7*/
+	left:-10px;
+}
+
+#bolhas{
+	position: absolute;
+	top:361px;
+	left:41px;
+	
+}
+
+#peixe{
+	position: absolute;
+	left:-44px;
+	top:552px;
+}
+
+#rodape{
+	padding-left: 691px;
+	padding-bottom: 25px;
+	padding-top: 46px;
+}
+
+#ticket{
+	position: fixed;
+	bottom:368px; /*663-295*/
+	left:-69px;/*89-158*/
+	transition: left 100ms ease-out;
+}
+
+#ticket:hover{
+	left: 0;
+}
+
+
